@@ -1,15 +1,15 @@
 # Gazin Pontential CRUD
 Este é o escopo do projeto base para o teste de avaliação para o ingresso de novos desenvolvedores junto a **Gazin**\<Tech>
 
-O projeto consiste em uma aplicação onde o candidato deverá desenvolver uma aplicação na *linguagem que desejar*, criando um Backend e um Frontend  que deverá ser interligados através de uma API REST JSON.
+O projeto consiste em uma aplicação onde o candidato deverá desenvolver uma aplicação na *linguagem que desejar*, criando um Backend e um Frontend  que deverão estar interligados através de uma API REST JSON.
   
-O propósito do teste é analisar boas práticas, lógica de programação, boas práticas, reaproveitamento de código e conhecimento geral de tecnologias utilizadas.
+O propósito do teste é analisar boas práticas, lógica de programação, reaproveitamento de código e conhecimento geral das tecnologias escolhidas e utilizadas.
 
 ## O Backend
-Você deverá desenvolver uma API RESTful na que utilize os métodos (​GET​, ​POST​, ​PUT/PATCH​ e ​DELETE​).
+Você deverá desenvolver uma API RESTful que utilize os métodos (​GET​, ​POST​, ​PUT/PATCH​ e ​DELETE​).
 
 ## O Frontend
-Você deverá desenvolver uma interface da forma que achar melhor, aplicando suas técnicas de UI/UX a seu critério. Porém, esta interface deverá ser uma SPA (Single Page Application) e atender o consumo de todos endpoints da API do backend.
+Você deverá desenvolver uma interface da forma que achar melhor, aplicando técnicas de UI/UX a seu critério. Porém, esta interface deverá ser uma SPA (Single Page Application) e atender o consumo de todos endpoints da API do backend.
 
 ## Itens a serem entregues no projeto
 * Os itens marcados com a tag [1] são os itens que cobrem o __mínimo viável do teste para que possamos avaliar o desempenho do candidato__;
