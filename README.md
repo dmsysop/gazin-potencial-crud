@@ -1,18 +1,34 @@
-Gazin Pontential CRUD
-Este é o escopo do projeto base para o teste de avaliação para o ingresso de novos desenvolvedores junto a Gazin<Tech>
+# Gazin Pontential CRUD
+Este é o escopo do projeto base para o teste de avaliação para o ingresso de novos desenvolvedores junto a **Gazin**\<Tech>
 
 O projeto consiste em uma aplicação onde o candidato deverá desenvolver uma aplicação na *linguagem que desejar*, criando um Backend e um Frontend  que deverá ser interligados através de uma API REST JSON.
   
 O propósito do teste é analisar boas práticas, lógica de programação, boas práticas, reaproveitamento de código e conhecimento geral de tecnologias utilizadas.
 
-# O Backend
-Você deverá desenvolver uma API RESTful na que utilize os métodos (​GET​, ​POST​, ​PUT/PATCH​, ​DELETE​).
+## O Backend
+Você deverá desenvolver uma API RESTful na que utilize os métodos (​GET​, ​POST​, ​PUT/PATCH​ e ​DELETE​).
 
-# O Frontend
-UI/UX fica a critério do desenvolvedor porém deverá ser SPA (single-page
-application) e atender o consumo de todos endpoints da API 
+## O Frontend
+Você deverá desenvolver uma interface da forma que achar melhor, aplicando suas técnicas de UI/UX a seu critério. Porém, esta interface deverá ser uma SPA (Single Page Application) e atender o consumo de todos endpoints da API do backend.
 
-# Especificação
+## Itens a serem entregues no projeto
+* Os itens marcados com a tag [1] são os itens que cobrem o mínimo viável do teste para que possamos avaliar o desempenho do candidato;
+* Os itens marcados com a tag [2] são itens opcionais, mas que poderão demonstrar o nível de conhecimento do candidato sobre a stack escolhida para realizar o teste;
+* Os itens marcados com a tag [3] são itens opcionais, mas que poderão demonstrar o nível de conhecimento do candidato sobre a estruturação do projeto;
+* Os itens marcados com a tag [4] são itens opcionais, mas que poderão demonstrar o nível de conhecimento do candidato sobre a organização do projeto;
+
+## O projeto
+O projeto consiste em criar um sistema de cadastro de Desenvolvedores, que deverá obrigatóriamente, estar associado a um determinado nível. O candidato deverá criar então 2 CRUDs completos, sendo:
+* CRUD do sistema de níveis
+* CRUD dos desenvolvedores
+
+Cada um dos CRUDs deverão possuir todos os métodos REST citados no item http://github.com - automatic!
+[GitHub](http://github.com)
+
+First Header | Second Header
+------------ | -------------
+
+
 Monte uma base de desenvolvedores com a seguinte estrutura:
 
 ```
