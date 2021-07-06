@@ -103,16 +103,16 @@ nivel: varchar
 # O que será avaliado?
 Em geral, tudo! Porém, nosso foco aqui é descobrir como você aplica conceitos básicos da programação no seu dia a dia para solucionar e resolver problemas e principalmente, entregar valor ao produto!
 
-O mais importante aqui são:
+Os mais importante aqui são:
 
 - Sua lógica de programação
 - Sua estrutura do código
 - Sua metodologia aplicada
 - Como você resolveu os problemas
-- Sua fora de escrever o código
+- Sua forma de escrever o código
 
 
 # Entrega
 Faça seu teste com calma! Organize-se! E após finalizado envie-nos por e-mail o link do projeto no github, com as devidas explicações no README do seu projeto.
 
-Desejamos uma boa sorte e agradeço o interesse em participar de nosso processo de otenção de talentos!
+Desejamos uma boa sorte e agradecemos o interesse em participar de nosso processo de obtenção de talentos!
