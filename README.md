@@ -13,9 +13,9 @@ Você deverá desenvolver uma interface da forma que achar melhor, aplicando sua
 
 ## Itens a serem entregues no projeto
 * Os itens marcados com a tag [1] são os itens que cobrem o __mínimo viável do teste para que possamos avaliar o desempenho do candidato__;
-* Os itens marcados com a tag [2] são itens opcionais, mas que poderão demonstrar o nível de conhecimento do candidato sobre a stack escolhida para realizar o teste;
-* Os itens marcados com a tag [3] são itens opcionais, mas que poderão demonstrar o nível de conhecimento do candidato sobre a estruturação do projeto;
-* Os itens marcados com a tag [4] são itens opcionais, mas que poderão demonstrar o nível de conhecimento do candidato sobre a construção do projeto (orquestração da aplicação);
+* Os itens marcados com a tag [2] __são itens opcionais__, mas que poderão demonstrar o nível de conhecimento do candidato sobre a stack escolhida para realizar o teste;
+* Os itens marcados com a tag [3] __são itens opcionais__, mas que poderão demonstrar o nível de conhecimento do candidato sobre a estruturação do projeto;
+* Os itens marcados com a tag [4] __são itens opcionais__, mas que poderão demonstrar o nível de conhecimento do candidato sobre a construção do projeto (orquestração da aplicação);
 
 ## O projeto
 O projeto consiste em criar um sistema de cadastro de Desenvolvedores, que deverá obrigatóriamente, estar associado a um determinado nível. 
