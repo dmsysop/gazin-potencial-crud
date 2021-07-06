@@ -50,6 +50,7 @@ TAG | STATUS CODE | ITEM
 
 
 2. Os itens a serem desenvolvidos nesta etapa do projeto são para avaliação de conhecimento técnico e estruturação e organização de código:
+> Lembramos que os itens abaixo são __opcionais__
 
 TAG | ITEM
 --- | ------------
