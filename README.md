@@ -18,8 +18,13 @@ Você deverá desenvolver uma interface da forma que achar melhor, aplicando sua
 * Os itens marcados com a tag [4] são itens opcionais, mas que poderão demonstrar o nível de conhecimento do candidato sobre a construção do projeto (orquestração da aplicação);
 
 ## O projeto
-O projeto consiste em criar um sistema de cadastro de Desenvolvedores, que deverá obrigatóriamente, estar associado a um determinado nível. O candidato deverá criar então 2 CRUDs completos, sendo:
-* CRUD do sistema de níveis
+O projeto consiste em criar um sistema de cadastro de Desenvolvedores, que deverá obrigatóriamente, estar associado a um determinado nível. 
+
+O candidato deverá criar então **2 CRUDs completos**, sendo:
+
+
+
+* CRUD de níveis
 * CRUD dos desenvolvedores
 
 Ambos os CRUDs deverão possuir todos os métodos REST citados no item [O backend](https://github.com/dmsysop/gazin-potencial-crud/blob/main/README.md#o-backend)
@@ -47,6 +52,7 @@ TAG | STATUS CODE | ITEM
 [2] | - | Adicionar retorno visual para confirmação da remoção dos itens do crud
 [2] | - | Permitir a ordenação dos campos, selecionando o "título" (via thead) da tabela de listagem em forma crescente/decrescente
 [2] | - | Validações de campos dos formulários
+[2] | - | Exibir na listagem de níveis a quantidade de desenvolvedores associados a ele (nível) numa nova coluna
 
 
 2. Os itens a serem desenvolvidos nesta etapa do projeto são para avaliação de conhecimento técnico e estruturação e organização de código:
@@ -94,6 +100,19 @@ id: integer
 nivel: varchar
 ```
 
+# O que será avaliado?
+Em geral, tudo! Porém, nosso foco aqui é descobrir como você aplica conceitos básicos da programação no seu dia a dia para solucionar e resolver problemas e principalmente, entregar valor ao produto!
+
+O mais importante aqui são:
+
+- Sua lógica de programação
+- Sua estrutura do código
+- Sua metodologia aplicada
+- Como você resolveu os problemas
+- Sua fora de escrever o código
+
 
 # Entrega
-Após finalizado enviar por e-mail o link do projeto no github, com explicação no README.
+Faça seu teste com calma! Organize-se! E após finalizado envie-nos por e-mail o link do projeto no github, com as devidas explicações no README do seu projeto.
+
+Desejamos uma boa sorte e agradeço o interesse em participar de nosso processo de otenção de talentos!
