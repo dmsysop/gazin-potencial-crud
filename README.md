@@ -36,12 +36,10 @@ TAG | STATUS CODE | ITEM
 [1] | 200 | Listar níveis existentes
 [1] | 201 ou 400 | Cadastrar um nível
 [1] | 200 ou 400 | Editar um nível
-[1] | 200 ou 400 | Alterar um nível
 [1] | 204 ou 400 | Remover um nível
 [1] | 200 | Listar desenvolvedores existentes
 [1] | 201 ou 400 | Cadastrar um desenvolvedor
 [1] | 200 ou 400 | Editar um desenvolvedor
-[1] | 200 ou 400 | Alterar um desenvolvedor
 [1] | 204 ou 400 | Remover um desenvolvedor
 [2] | 501 | Impedir que um nível seja removido quando houver um (ou mais) desenvolvedor(es) associado a este
 [2] | 200 ou 404 | Adicionar funcionalidade de busca via query string para a listagem de níveis
@@ -78,7 +76,7 @@ TAG | ITEM
 [4] | Disponibilização do backend via Docker
 [4] | Disponibilização do frontend via Docker
 [4] | Disponibilização dos containers (backend+frontend) via Docker Compose
-[4] | Disponibilização do sistema em uma aplicação online (Ex. Heroku)
+[4] | Disponibilização/Publicação do sistema em uma aplicação online (Ex. Heroku)
 
 
 ## Sugestões de Desenvolvimento
