@@ -15,81 +15,84 @@ Você deverá desenvolver uma interface da forma que achar melhor, aplicando sua
 * Os itens marcados com a tag [1] são os itens que cobrem o mínimo viável do teste para que possamos avaliar o desempenho do candidato;
 * Os itens marcados com a tag [2] são itens opcionais, mas que poderão demonstrar o nível de conhecimento do candidato sobre a stack escolhida para realizar o teste;
 * Os itens marcados com a tag [3] são itens opcionais, mas que poderão demonstrar o nível de conhecimento do candidato sobre a estruturação do projeto;
-* Os itens marcados com a tag [4] são itens opcionais, mas que poderão demonstrar o nível de conhecimento do candidato sobre a organização do projeto;
+* Os itens marcados com a tag [4] são itens opcionais, mas que poderão demonstrar o nível de conhecimento do candidato sobre a construção do projeto (orquestração da aplicação);
 
 ## O projeto
 O projeto consiste em criar um sistema de cadastro de Desenvolvedores, que deverá obrigatóriamente, estar associado a um determinado nível. O candidato deverá criar então 2 CRUDs completos, sendo:
 * CRUD do sistema de níveis
 * CRUD dos desenvolvedores
 
-Cada um dos CRUDs deverão possuir todos os métodos REST citados no item http://github.com - automatic!
-[GitHub](http://github.com)
+Ambos os CRUDs deverão possuir todos os métodos REST citados no item [O backend](https://github.com/dmsysop/gazin-potencial-crud/blob/main/README.md#o-backend)
 
-First Header | Second Header
------------- | -------------
+1. Os itens a serem desenvolvidos nesta etapa do projeto são para avaliação de domínio de stack escolhida:
+
+TAG | STATUS CODE | ITEM
+--- | ----------- | ------------
+[1] | 200 | Listar níveis existentes
+[1] | 201 ou 400 | Cadastrar um nível
+[1] | 200 ou 400 | Editar um nível
+[1] | 200 ou 400 | Alterar um nível
+[1] | 204 ou 400 | Remover um nível
+[1] | 200 | Listar desenvolvedores existentes
+[1] | 201 ou 400 | Cadastrar um desenvolvedor
+[1] | 200 ou 400 | Editar um desenvolvedor
+[1] | 200 ou 400 | Alterar um desenvolvedor
+[1] | 204 ou 400 | Remover um desenvolvedor
+[2] | 501 | Impedir que um nível seja removido quando houver um (ou mais) desenvolvedor(es) associado a este
+[2] | 200 ou 404 | Adicionar funcionalidade de busca via query string para a listagem de níveis
+[2] | 200 ou 404 | Adicionar funcionalidade de busca via query string para a listagem de desenvolvedores
+[2] | - | Adicionar paginação na listagem de níveis
+[2] | - | Adicionar paginação na listagem de desenvolvedores
+[2] | - | Adicionar retorno visual às mensagens de sucesso e/ou erros (Toast Notification)
+[2] | - | Adicionar retorno visual para confirmação da remoção dos itens do crud
+[2] | - | Permitir a ordenação dos campos, selecionando o "título" (via thead) da tabela de listagem em forma crescente/decrescente
+[2] | - | Validações de campos dos formulários
 
 
-Monte uma base de desenvolvedores com a seguinte estrutura:
+2. Os itens a serem desenvolvidos nesta etapa do projeto são para avaliação de conhecimento técnico e estruturação e organização de código:
 
+TAG | ITEM
+--- | ------------
+[3] |  Tipagem de dados
+[3] |  Organização e estrutura de pastas
+[3] |  Conceitos e boas práticas de programação
+[3] |  Reaproveitamento de código
+[3] |  Clean Code
+[3] |  Clean Architecture
+[3] |  Testes Unitários
+[3] |  Documentação de código/endpoint
+
+
+3. Os itens a serem desenvolvidos nesta etapa do projeto são para avaliação de conhecimento técnico e orquestração de projetos:
+> Lembramos que os itens abaixo são __opcionais__
+
+TAG | ITEM
+--- | ------------
+[4] | Disponibilização do backend via Docker
+[4] | Disponibilização do frontend via Docker
+[4] | Disponibilização dos containers (backend+frontend) via Docker Compose
+[4] | Disponibilização do sistema em uma aplicação online (Ex. Heroku)
+
+
+## Sugestões de Desenvolvimento
+
+#### Estrutura da base de desenvolvedores:
 ```
+id: integer
+nivel: fk
 nome: varchar
 sexo: char
+datanascimento: date
 idade: integer
 hobby: varchar
-datanascimento: date
 ```
 
-Utilize o ​banco de dados​ de sua preferência para armazenar os dados que a API irá
-consumir.
-
-# API endpoints
-
+#### Estrutura da base de níveis:
 ```
-GET /developers
-Codes 200
+id: integer
+nivel: varchar
 ```
-Retorna todos os desenvolvedores
-
-```
-GET /developers?
-Codes 200 / 404
-```
-Retorna os desenvolvedores de acordo com o termo passado via querystring e
-paginação
-
-```
-GET /developers/{id}
-Codes 200 / 404
-```
-Retorna os dados de um desenvolvedor
-
-```
-POST /developers
-Codes 201 / 400
-```
-Adiciona um novo desenvolvedor
-
-```
-PUT /developers/{id}
-Codes 200 / 400
-```
-Atualiza os dados de um desenvolvedor
-
-```
-DELETE /developers/{id}
-Codes 204 / 400
-```
-Apaga o registro de um desenvolvedor
 
 
 # Entrega
-Desejável aplicação e o banco deve rodar em docker
-
-# O que será avaliado
-- Estrutura do código
-- Lógica de progamação
-- Clean Code
-- Teste Unitários
-
-
 Após finalizado enviar por e-mail o link do projeto no github, com explicação no README.
